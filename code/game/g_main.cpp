@@ -37,7 +37,6 @@ along with this program; if not, see <http://www.gnu.org/licenses/>.
 //rww - RAGDOLL_END
 
 #include "qcommon/ojk_saved_game_helper.h"
-#include "qcommon/q_version.h"
 
 extern void WP_SaberLoadParms( void );
 extern qboolean G_PlayerSpawned( void );
