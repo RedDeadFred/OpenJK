@@ -41,7 +41,6 @@ if(BuildSPEngine OR BuildJK2SPEngine)
 	set(SPEngineIncludeDirectories
 		${SPEngineIncludeDirectories}
 		${SharedDir}
-		${CMAKE_BINARY_DIR}/shared
 		${SPDir}
 		"${GSLIncludeDirectory}")
 
