@@ -213,6 +213,7 @@ static const char *GetSubString(std::string &strResult)
 static int SortBySurname(const void *elem1, const void *elem2)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	StringAndSize_t *p1 = (StringAndSize_t *) elem1;
 	StringAndSize_t *p2 = (StringAndSize_t *) elem2;
 
@@ -226,6 +227,8 @@ static int SortBySurname(const void *elem1, const void *elem2)
 		
 	return Q_stricmp(psSurName1, psSurName2);
 =======
+=======
+>>>>>>> parent of 1e928d63 ([SP] Minor refactor)
 	std::string::const_reverse_iterator rbegin1 = str1.str.rbegin();
 	std::string::const_reverse_iterator rbegin2 = str2.str.rbegin();
 
@@ -233,6 +236,9 @@ static int SortBySurname(const void *elem1, const void *elem2)
 	while (rbegin2 != str2.str.rend() && !isspace(*rbegin2)) rbegin2++;
 
 	return Q_stricmp(&*rbegin1.base(), &*rbegin2.base()) < 0;
+<<<<<<< HEAD
+>>>>>>> parent of 1e928d63 ([SP] Minor refactor)
+=======
 >>>>>>> parent of 1e928d63 ([SP] Minor refactor)
 }
 
